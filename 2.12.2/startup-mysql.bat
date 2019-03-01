@@ -1,1 +1,1 @@
-java -jar zipkin-server-2.12.2-exec.jar --STORAGE_TYPE=mysql --MYSQL_DB=zipkin --MYSQL_USER=root --MYSQL_PASS=root 
+java -jar zipkin-server-2.12.2-exec.jar > startup-mysql.log --STORAGE_TYPE=mysql --MYSQL_DB=zipkin --MYSQL_USER=root --MYSQL_PASS=root --MYSQL_HOST=localhost --MYSQL_TCP_PORT=3306 
