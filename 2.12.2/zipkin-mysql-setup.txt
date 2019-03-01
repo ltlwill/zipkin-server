@@ -1,0 +1,6 @@
+zipkin-server(当前2.12.2)使用mysql作为数据存储：
+	step1：安装Mysql数据库，支持5.6,5.7
+	step2：创建数据库名zipkin 
+	step3：在数据库zipkin下执行初始化脚本（即：zipkin-mysql-init.sql）
+	step4: 在环境变量中配置zipkin的mysql连接信息或在启动命令行配置mysql连接信息
+	step5：启动zipkin，打开http://IP:9411 即可

@@ -1,1 +1,0 @@
-java -jar zipkin-server-2.11.3-exec.jar --zipkin.collector.rabbitmq.uri=amqp://zipkin:zipkin@1234@192.168.2.55:5672

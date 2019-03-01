@@ -1,1 +1,0 @@
-java -jar zipkin-server-2.11.3-exec.jar > startup-6.log --zipkin.collector.rabbitmq.uri=amqp://ms_client_test:test1234@192.168.2.6:5672
