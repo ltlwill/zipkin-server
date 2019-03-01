@@ -1,0 +1,4 @@
+zipkin-server(当前2.12.2)使用elasticsearch作为数据存储：
+	step1：安装elasticsearch
+	step2: 在环境变量中配置zipkin的elasticsearch连接信息或在启动命令行配置mysql连接信息（参考：startup-elasticsearch.bat）
+	step5：启动zipkin，打开http://IP:9411 即可
